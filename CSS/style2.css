@@ -1,121 +1,184 @@
-*{
+* {
+    font-family: 'Times New Roman', Times, serif;
     box-sizing: border-box;
     color: white;
-    
-}
-
-
-html{
     margin: 0;
     padding: 0;
-
 }
 
-body{
-    font-family: 'Times New Roman', Times, serif;
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
     background-image: url('/template/imgs/imggs.jpg');
-    padding: 0;
-    margin: 0;
-    height: 100vh;
-    width: 100vw;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
-    
 }
 
-header{
+header {
     display: flex;
     justify-content: space-between;
-}
-
-span{
-    color: black;
-}
-
-header h1{
     padding: 20px;
 }
 
-.navegacao{
-    text-align: center;
+span {
+    color: blue;
 }
 
-header nav{
-    align-items: center;
+header h1 {
+    padding: 20px;
 }
 
-header h1{
-    
-}
-nav{
-    
+nav {
     text-align: center;
     font-size: 20px;
     padding: 20px;
     margin: 10px;
-    
-    border-radius: 20px;
-    
     width: 900px;
-    
 }
 
-
-a{
-    
-    box-sizing: border-box;
+a {
     padding: 30px;
     text-decoration: none;
-    border: 2px black;
-    
-
 }
 
-nav a:hover{
+nav a:hover {
     color: violet;
 }
 
-main{
+main {
+    flex: 1;
     text-align: center;
-    padding: 100px;
+    padding: 266px;
     color: black;
     
-    
 }
 
-main h1{
+main h1 {
     font-size: 90px;
+    margin-top: 50px;
 }
 
-main h2{
+main h2 {
     font-size: 30px;
 }
 
-footer{
-    
-    text-align: center;
-    justify-content: space-between;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 48px;
-    font-size: 20px;
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    grid-row: 3;
     
 }
 
-footer p{
-    align-items: center;
-    text-align: center;
-    
-    
+footer div {
+    display: flex;
+    gap: 20px; 
+}
+
+footer img {
+    margin: 0;
     
 }
 
-footer img{
-   margin: auto;
-   margin-top: 40px;
-   background-color: white;
+footer img:hover{
+    background-color: violet;
+    border-radius: 100%;
+}
+
+.curso {
+   
+}
+
+.curso h1{
+    
+   
+    text-align: center;
+    padding: 10px; 
+}
+
+.experiencias{
+    
+}
+
+@media (min-width: 380px) and (max-width: 600px) {
+
+    body{
+        overflow:scroll;
+    }
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header h1{
+        font-size: 25px;
+    }
+
+    nav {
+        font-size: 10px;
+    }
+
+    a {
+        padding: 15px;
+    }
+
+    main {
+       
+        padding: 50px 20px
+    }
+
+    ;
+
+    main h1 {
+        
+        font-size: 40px
+    }
+
+    
+
+    main h2 {
+        font-size: 20px;
+    }
+
+    footer {
+
+        margin-top: -35px;
+
+    }
+
+    footer div {
+
+        gap: 10px;
+    }
+}
+
+
+@media (min-width: 601px) and (max-width: 1024px) {
+
+    body{
+        overflow:scroll;
+    }
+
+    nav {
+        font-size: 20px;
+    }
+
+    main {
+        padding: 300px 20px;
+    }
+
+    main h1 {
+        font-size: 60px;
+    }
+
+    main h2 {
+        font-size: 25px;
+    }
 }
