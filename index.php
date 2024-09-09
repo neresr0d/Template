@@ -1,55 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rodrigo Neres</title>
-    <link rel="stylesheet" href="/template/template/CSS/style.css">
+require_once $_SERVER['DOCUMENT_ROOT'] . '/template/_cabecalho.php';
 
-</head>
-
-<body>
-    <header>
-        <nav>
-
-            <a href="">Sobre mim</a>
+?>
 
 
-        </nav>
+        <main class="main-inicial">
+            <div class="conteudo-principal"><h1>Rodrigo Neres</h1></div><br>
+            <div class="conteudo-secundario"><h2>Desenvolvedor Web</h2></div>
+        </main>
 
-    </header>
-    <main class="template">
-        <div id="corpo">
-            <div class="cont-superior">
+        <?php
 
-                <div>
-                    <h1>Rodrigo Pereira Neres</h1>
-                </div>
+require_once $_SERVER['DOCUMENT_ROOT'] . '/template/_rodape.php';
 
-                <div>
-                    <img src="/template/template/imgs/o_código_da_vinci.jpg" alt="">
-                </div>
+?> 
 
-            </div>
-
-            <div>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, possimus. <br>Repudiandae laudantium fugit explicabo repellat necessitatibus veritatis, consectetur ad eius, aperiam minima vero ullam incidunt voluptates reiciendis laboriosam sequi molestiae?</p>
-            </div>
-
-            <div>
-                <div>
-                    <h2>Formas de contato</h2>
-
-                </div>
-
-                <div class="aa">
-                    <a href="https://github.com/neresr0d?tab=repositories" target="_blank" rel="noopener noreferrer">GitHub</a>
-                </div>
-            </div>
-
-        </div>
-    </main>
-</body>
-
-</html>
+    

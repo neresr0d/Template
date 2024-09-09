@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rodrigo Neres</title>
-    <link rel="stylesheet" href="/template/CSS/style2.css">
+    <link rel="stylesheet" href="/template/CSS/style.css">
 </head>
 
 <body>
@@ -16,7 +16,7 @@
             </div>
             <div class="navegacao">
                 <nav>
-                    <a href="/template/index2.php" class="link-nav">Inicio</a>
+                    <a href="/template/index.php" class="link-nav">Inicio</a>
                     <a href="/template/projetos.php" class="link-nav">Projetos</a>
                     <a href="/template/experiencias.php" class="link-nav">Experiências</a>
                     <a href="/template/cursos.php" class="link-nav">Cursos</a>
