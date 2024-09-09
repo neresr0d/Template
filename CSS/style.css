@@ -21,7 +21,7 @@ html, body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-image: url('/template/imgs/imggs.jpg');
+    background-image: url('/imgs/imggs.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -155,7 +155,7 @@ footer img:hover{
 @media (min-width: 150px) and (max-width: 600px) {
 
     .container{
-        background-image: url('/template/imgs/lamp.webp');
+        background-image: url('/imgs/lamp.webp');
     }
 
     
@@ -219,7 +219,7 @@ footer img:hover{
 
     .container{
         display: flex;
-        background-image: url('/template/imgs/lamp.webp');
+        background-image: url('/imgs/lamp.webp');
     }
 
     body {
