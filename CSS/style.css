@@ -113,7 +113,8 @@ footer img{
 
 footer img:hover{
     transition-duration: 0.4s;
-    background-color: violet;
+    background-color: blue;
+    border-radius: 40%;
    
 
 }
@@ -153,17 +154,11 @@ footer img:hover{
 
 @media (min-width: 150px) and (max-width: 600px) {
 
-    *{
-        color: rgb(82, 126, 82);
-    }
-
     .container{
-
-        background-color:darkslategray;
-        
-        /* background-image: url('/template/img/fundo_mobile.jfif'); */
- 
+        background-image: url('/template/imgs/lamp.webp');
     }
+
+    
     
     body {
         overflow: auto;
