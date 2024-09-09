@@ -16,9 +16,5 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/template/_cabecalho.php';
 
 
 
-<?php
 
-require_once $_SERVER['DOCUMENT_ROOT'] . '/template/_rodape.php';
-
-?>
 

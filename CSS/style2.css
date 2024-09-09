@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&display=swap');
+
 * {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Sarala", sans-serif;
     box-sizing: border-box;
+    text-decoration: none;
     color: white;
     margin: 0;
     padding: 0;
@@ -12,7 +15,7 @@ html, body {
 }
 
 body {
-    overflow: hidden;
+    overflow: auto;
     display: flex;
     flex-direction: column;
     background-image: url('/template/imgs/imggs.jpg');
@@ -23,101 +26,125 @@ body {
 
 header {
     display: flex;
-    justify-content: space-between;
-    padding: 20px;
+    justify-content: space-around;
+    padding: 25px;
+    align-items: center;
+    flex-direction: row;
 }
+
 
 span {
     color: blue;
 }
 
-header h1 {
-    padding: 20px;
-}
-
 nav {
     text-align: center;
     font-size: 20px;
-    padding: 20px;
-    margin: 10px;
-    width: 900px;
+    gap: 30px; 
 }
 
 a {
-    padding: 30px;
-    text-decoration: none;
+    
+    padding: 20px;
+    
 }
 
 nav a:hover {
     color: violet;
+    transition-duration: 0.4s;
+    
 }
 
 main {
-    flex: 1;
+
+    border-top: 0.5px solid #FFF2E7;
+    flex-direction: column;
     text-align: center;
-    padding: 266px;
-    color: black;
+}
+
+.conteudo-principal {
+    font-size: 60px;
+    margin-top: 50px;
     
 }
 
-main h1 {
-    font-size: 90px;
-    margin-top: 50px;
-}
+.conteudo-secundario {
 
-main h2 {
     font-size: 30px;
+    font-weight: 100;
+    margin-bottom: 15rem;
 }
 
 footer {
+    border-top: 0.5px solid #FFF2E7;
+    padding: 15px;
     display: flex;
-    justify-content: center;
-    padding: 20px;
-    grid-row: 3;
-    
+     
 }
 
 footer div {
+    margin: 0 auto;
     display: flex;
-    gap: 20px; 
+    gap: 30px; 
 }
 
-footer img {
-    margin: 0;
-    
-}
+
 
 footer img:hover{
+    transition-duration: 0.4s;
     background-color: violet;
     border-radius: 100%;
 }
 
+
+.projetos{
+    position: absolute;
+    
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+  
+}
+
+.projetos :hover {
+    color: violet;
+    transition-duration: 0.4s;
+    
+}
+
+.experiencias {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+
+}
+
 .curso {
-   
-}
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
 
-.curso h1{
-    
-   
-    text-align: center;
-    padding: 10px; 
 }
-
-.experiencias{
     
-}
 
 @media (min-width: 380px) and (max-width: 600px) {
 
-    body{
-        overflow:scroll;
+    body {
+        overflow: auto;
     }
+
     header {
         flex-direction: column;
         align-items: center;
     }
 
-    header h1{
+    .nome-topo {
+        padding-bottom: 15px;
+    }
+
+    header h1 {
         font-size: 25px;
     }
 
@@ -130,41 +157,44 @@ footer img:hover{
     }
 
     main {
-       
-        padding: 50px 20px
+
+        padding: 4rem 2rem;
     }
 
-    ;
 
-    main h1 {
-        
-        font-size: 40px
-    }
 
-    
-
-    main h2 {
-        font-size: 20px;
-    }
-
-    footer {
-
-        margin-top: -35px;
+    .conteudo-principal {
+        font-size: 1.6rem;
+        margin-top: 2px;
 
     }
+
+
+
+    .conteudo-secundario {
+        font-size: 1rem;
+        margin-bottom: 10rem;
+    }
+
+    footer {}
 
     footer div {
 
-        gap: 10px;
+        padding-top: 3rem;
+
+        gap: 20px;
+
+    }
+
+    .experiencias{
+
     }
 }
 
 
 @media (min-width: 601px) and (max-width: 1024px) {
 
-    body{
-        overflow:scroll;
-    }
+
 
     nav {
         font-size: 20px;
@@ -174,9 +204,11 @@ footer img:hover{
         padding: 300px 20px;
     }
 
-    main h1 {
-        font-size: 60px;
+    .conteudo-principal {
+        font-size: 55rem;
+        margin-top: px;
     }
+
 
     main h2 {
         font-size: 25px;

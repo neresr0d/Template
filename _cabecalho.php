@@ -12,14 +12,14 @@
     <div class="container">
         <header>
             <div class="nome-topo">
-                <h1>Rodrigo Neres.<span>_</span></h1>
+                <h1>Neres.<span>_</span></h1>
             </div>
             <div class="navegacao">
                 <nav>
                     <a href="/template/index2.php">Inicio</a>
-                    <a href="/template/projetos.php" target="_blank">Projetos</a>
-                    <a href="/template/experiencias.php" target="_blank">Experiências</a>
-                    <a href="/template/cursos.php" target="_blank">Cursos</a>
+                    <a href="/template/projetos.php" >Projetos</a>
+                    <a href="/template/experiencias.php" >Experiências</a>
+                    <a href="/template/cursos.php">Cursos</a>
                 </nav>
 
             </div>
