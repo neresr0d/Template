@@ -14,8 +14,8 @@ html, body {
     height: 100%;
 }
 
-body {
-    overflow: auto;
+.container{
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     background-image: url('/template/imgs/imggs.jpg');
@@ -23,6 +23,14 @@ body {
     background-size: cover;
     background-position: center;
 }
+
+.main-inicial{
+    flex: 1;
+    min-width: 100%;
+    
+}
+
+
 
 header {
     display: flex;
@@ -49,7 +57,7 @@ a {
     
 }
 
-nav a:hover {
+header, nav a:hover {
     color: violet;
     transition-duration: 0.4s;
     
@@ -72,14 +80,17 @@ main {
 
     font-size: 30px;
     font-weight: 100;
-    margin-bottom: 15rem;
+    margin-bottom: 5rem;
 }
 
+
 footer {
+    
     border-top: 0.5px solid #FFF2E7;
-    padding: 15px;
+    padding: 1em;
     display: flex;
-     
+    margin-top: auto;
+  
 }
 
 footer div {
@@ -88,12 +99,19 @@ footer div {
     gap: 30px; 
 }
 
+footer img{
+    
+    height: auto;
+    width: 30px;
+}
+
 
 
 footer img:hover{
     transition-duration: 0.4s;
     background-color: violet;
-    border-radius: 100%;
+   
+
 }
 
 
@@ -129,15 +147,20 @@ footer img:hover{
 }
     
 
-@media (min-width: 380px) and (max-width: 600px) {
+@media (min-width: 150px) and (max-width: 600px) {
 
     body {
         overflow: auto;
+      
+        
+
     }
 
     header {
         flex-direction: column;
         align-items: center;
+        width: 100%;
+        
     }
 
     .nome-topo {
@@ -161,52 +184,51 @@ footer img:hover{
         padding: 4rem 2rem;
     }
 
-
-
     .conteudo-principal {
         font-size: 1.6rem;
         margin-top: 2px;
 
     }
 
-
-
     .conteudo-secundario {
         font-size: 1rem;
-        margin-bottom: 10rem;
+        margin-bottom: 0.5rem;
     }
-
-    footer {}
 
     footer div {
-
         padding-top: 3rem;
-
         gap: 20px;
-
     }
 
-    .experiencias{
-
-    }
 }
 
 
 @media (min-width: 601px) and (max-width: 1024px) {
 
+    .container{
+        display: flex;
+    }
 
+    body {
+        overflow: auto;
+    }
 
     nav {
         font-size: 20px;
     }
 
     main {
-        padding: 300px 20px;
+        padding: 30px 20px;
     }
 
     .conteudo-principal {
-        font-size: 55rem;
+        
         margin-top: px;
+    }
+
+    .conteudo-secundario {
+
+        margin-bottom: 0.5rem;
     }
 
 

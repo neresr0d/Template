@@ -16,10 +16,10 @@
             </div>
             <div class="navegacao">
                 <nav>
-                    <a href="/template/index2.php">Inicio</a>
-                    <a href="/template/projetos.php" >Projetos</a>
-                    <a href="/template/experiencias.php" >Experiências</a>
-                    <a href="/template/cursos.php">Cursos</a>
+                    <a href="/template/index2.php" class="link-nav">Inicio</a>
+                    <a href="/template/projetos.php" class="link-nav">Projetos</a>
+                    <a href="/template/experiencias.php" class="link-nav">Experiências</a>
+                    <a href="/template/cursos.php" class="link-nav">Cursos</a>
                 </nav>
 
             </div>
